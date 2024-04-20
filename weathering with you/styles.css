@@ -1,0 +1,132 @@
+.UI-Start{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items : center
+}
+
+p{
+    font-family: Roboto;
+    
+}
+
+.Weather-Text{
+    
+    font-size: 53px;
+    color: rgb(236, 236, 14);
+    margin-bottom: 10px;
+    transition: color 0.4s, background-color 0.4s;
+    
+    
+}
+
+.Weather-Text:hover{
+    background-color: rgb(236, 236, 14);
+    color: white;
+    border-radius: 9px;
+}
+
+.search-button{
+    Background-color: black;
+    color: white;
+    width: 75px;
+    height: 38px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-weight: bold;
+    
+    font-size: 19px;
+    transition: background-color 0.4s, color 0.4s, border-color 0.4s;
+    
+
+}
+
+.search-button:hover{
+    background-color: white;
+    color: black;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+.search-bar{
+   
+    width: 430px;
+    height: 40px;
+    margin-bottom: 10px;
+
+    
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: 7px;
+    transition: outline-color 0.5s, outline-style 0.5s;
+    padding-left: 5px;
+    color: rgb(156, 156, 156);
+    font-size: 18px;
+    
+    
+    
+}
+
+.search-bar:focus{
+    outline-color: rgba(0, 255, 255, 0.926);
+    
+    outline-style:solid;
+}
+
+.search-bar::placeholder{
+    font-size: 18px;
+}
+
+
+
+.First-Half{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: center;
+    
+}
+
+.Second-Half{
+    border-color: rgb(186, 186, 186);
+    width: 430px;
+    
+    border-style: solid;
+    border-width: 0.5px;
+    margin-top: 20px;
+    position: relative;
+    padding-top: 45px;
+}
+
+.Header{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(186, 186, 186);
+    border-top-color: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 40px;
+    
+    background-color: rgba(237, 237, 237, 0.958);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.State-Name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.weather-info-header{
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.weather-info{
+    margin-bottom: 35px;
+}
